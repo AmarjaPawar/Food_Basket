@@ -1,0 +1,38 @@
+body {
+    margin: 10px;
+    padding: 3rem 0;
+}
+.btn{
+    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    border-radius: 10rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    transition: all .2s; }
+    .btn:hover, .btn-small:hover {
+      transform: scale(1.05); }
+    .btn:focus, .btn-small:focus {
+      outline: none; }
+    
+      .heading-2 {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #F59A83;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        }
+      .list-group-item{
+        padding: 2rem 1rem;
+        font-size: 1.3rem;
+        line-height: 1;
+        background-color: #F2EFEE;
+        display: flex;
+        flex-direction: column;
+        align-items: left; 
+      }

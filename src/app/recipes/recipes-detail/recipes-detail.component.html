@@ -1,0 +1,60 @@
+<body>
+    <div class="row">
+        <div class="col-xs-12">
+                <img [src]="recipe.imagePath" 
+                alt="{{recipe.name}}" 
+                class="img-responsive"
+                style="max-height: 300px;">
+    
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 heading-2">
+            <div>
+                {{recipe.name}}
+            </div>            
+    </div>
+    <div class="col-md-6">
+        
+        <button class="btn" [matMenuTriggerFor]="menu" style="margin-top: 40px; width:10rem; height:3rem">MANAGE<span class="caret"></span></button>
+        <mat-menu #menu="matMenu">
+          <button (click)="toShoppingList()" mat-menu-item>ADD INGREDIENTS TO SHOPPING LIST</button>
+          <button (click)="onEdit()" mat-menu-item>EDIT</button>
+          <button (click)='ondelete()' mat-menu-item>DELETE</button>
+
+        </mat-menu>          
+        
+    </div>
+</div>
+ <div class="row">       
+     <div class="col-md-12" style="margin-bottom: 15px;">
+            {{recipe.description}}
+    
+    </div>
+  
+    </div>
+        
+
+
+    
+    
+    
+    
+        
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-xs-12">
+                <ul class="list-group">
+                <li class="list-group-item"
+                *ngFor ="let ingredient of recipe.ingredients">
+                {{ingredient.name}} {{ingredient.amount}}
+                </li>   
+                </ul>
+            </div>
+            </div>
+  
+    
+          
+    
+    
+    
+</body>

@@ -1,0 +1,28 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 20px;
+    min-width: 300px;
+    align-items: center;
+
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  .layout{
+
+padding:20px;
+margin:40px;
+align-content: center;}
+.mat-raised-button{
+    margin-top: 20px;
+    min-width: 100px;
+}

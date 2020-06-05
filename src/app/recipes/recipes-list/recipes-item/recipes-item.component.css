@@ -1,0 +1,35 @@
+.list-group-item.active{
+    background-color:#F2EFEE;
+    transform: translateY(-2px); 
+    color: black;
+    border-color:  rgb(39, 36, 36);
+    
+
+}
+
+
+.list-group-item-heading{
+    font-size: 1.8rem;
+  font-weight: 600;
+  color: #F59A83;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.list-group-item-text
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(44, 41, 41);
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+.fig{
+    flex: 0 0 5.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 5.5rem;
+    margin-right: 2rem;
+    position: relative;
+    backface-visibility: hidden; 
+}

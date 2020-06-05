@@ -1,0 +1,34 @@
+<div class="container-fluid">
+
+</div>
+
+<nav class="collapse navbar-collapse container" style="background-color: #F9F5F3;" >
+  <div class="navbar-header">
+    <a routerLink="/" class="navbar-brand header">
+      <img src='assets/img/logo.png'
+      class="header-logo">
+    </a>
+  </div>
+
+
+    <ul CLASS="nav navbar-nav" >
+      <button class="btn btn-space" routerLinkActive = "Active">
+        <a style="color: #fff;" [routerLink]="['/recipes']" >RECIPE</a></button>
+        <button class="btn btn-space" routerLinkActive="active"><a style="color: #fff;"[routerLink]="['/login-page']" >Authentication</a></button>
+
+      <button class="btn btn-space" routerLinkActive="active"><a style="color: #fff;"[routerLink]="['/shopping-list']" >SHOPPING LIST</a></button>
+      </ul>
+      <span class="pull-right">
+    <button class="btn" [matMenuTriggerFor]="menu">MANAGE</button></span>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="onSaveData()">SAVE DATA</button>
+      <button mat-menu-item (click)="onFetchData()">FETCH DATA</button>
+    </mat-menu>
+  </nav>
+
+              
+  
+
+
+
+

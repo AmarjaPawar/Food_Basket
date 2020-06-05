@@ -1,0 +1,68 @@
+
+
+.header {
+    background-color: #F9F5F3;
+    grid-area: head;
+    align-items: center;
+    justify-content: space-between;
+ }
+    .header-logo {
+      height: 4.5rem;
+      background-color: #F9F5F3;
+
+      }
+     
+      .search {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #F59A83;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+        text-align: center;
+        background-color: #F9F5F3;
+        padding: 1.3rem 3rem;
+       font-size: 1.9rem; 
+    }
+    .container {
+        width: 120rem;
+        margin-top: 60px;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+        
+         }
+        .heading{
+            font-family: sans-serif;
+            color: #F59A83;
+
+        }
+        .btn-space {
+            margin: 5px;
+            width: 100px;
+            
+        }
+
+        .mat-menu-item{
+            width:20rem;
+            text-align: center;
+            height:3.7rem;
+            border-radius: 1rem;
+
+        }
+        .btn {
+            
+    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    border-radius: 1rem;
+    border: none;
+    width:20rem;
+    margin-top:20px;  
+    margin-bottom:20px;
+      font-size: medium;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s; }
+    .btn:hover, .btn-small:hover {
+      transform: scale(1.05); }
+    .btn:focus, .btn-small:focus {
+      outline: none; }

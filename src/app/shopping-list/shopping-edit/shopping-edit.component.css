@@ -1,0 +1,28 @@
+.btn-space {
+    margin: 5px;
+    width: 100px;
+    
+}
+.btn {
+   
+    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    border-radius: 10rem;
+    border: none;
+    
+    font-size: medium;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s; }
+    .btn:hover, .btn-small:hover {
+      transform: scale(1.05); }
+    .btn:focus, .btn-small:focus {
+      outline: none; }
+
+      
+      .example-form {
+        min-width: 150px;
+        max-width: 500px;
+        min-height: 50px;
+        width: 100%;
+      }

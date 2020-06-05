@@ -1,0 +1,22 @@
+
+body {
+  height: 1500PX; 
+  background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+  background-size: cover;
+background-repeat: repeat;   }
+
+.container {
+  margin-bottom: 10px;
+  
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  display: grid;
+  width: 120rem;
+  min-height: 200PX;
+   }
+   
+
+
+          
